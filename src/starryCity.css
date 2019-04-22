@@ -1,0 +1,19 @@
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+
+	background-image: linear-gradient(#000, #001625);
+}
+
+#city{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	width: 100vw;
+	height: 100vh;
+}

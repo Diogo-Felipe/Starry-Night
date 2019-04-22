@@ -1,0 +1,24 @@
+.star{
+	position: absolute;
+
+	border-radius: 50%;
+
+	background-color: white;
+
+	animation: SHINE infinite alternate ease-in-out;
+	z-index: -1;
+}
+
+@keyframes SHINE{
+	0%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0.1;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}

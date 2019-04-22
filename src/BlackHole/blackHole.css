@@ -1,0 +1,28 @@
+.falling-star{
+	position: absolute;
+
+	border-radius: 50%;
+
+	opacity: 0;
+
+	background-color: white;
+
+	animation: 	FALLING infinite ease-in-out;
+
+	z-index: -1;
+}
+
+@keyframes FALLING{
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+		left:50vw; 
+		top:50vh;
+	}
+}

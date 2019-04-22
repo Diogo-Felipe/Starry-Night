@@ -1,0 +1,21 @@
+.moving-star{
+	position: absolute;
+
+	border-radius: 50%;
+
+	opacity: 0;
+
+	background-color: white;
+
+	z-index: -1;
+}
+
+@keyframes DISAPPEAR{
+	50%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+	}
+}
